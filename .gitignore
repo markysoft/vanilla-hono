@@ -1,6 +1,4 @@
 # Deno
-/deno.lock
-/deno.json
 /deps.ts
 /dist/
 /node_modules/
