@@ -1,0 +1,23 @@
+# Deno
+/deno.lock
+/deno.json
+/deps.ts
+/dist/
+/node_modules/
+/.vscode/
+/.DS_Store
+.env
+*.log
+
+# Deno cache
+/deno_dir/
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Test coverage
+coverage/
