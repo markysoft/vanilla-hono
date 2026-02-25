@@ -1,13 +1,13 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@hono/hono@^4.9.4": "4.9.4",
+    "jsr:@hono/hono@^4.12.2": "4.12.2",
     "npm:@types/node@*": "24.2.0",
-    "npm:zod@^4.1.1": "4.1.1"
+    "npm:zod@^4.3.6": "4.3.6"
   },
   "jsr": {
-    "@hono/hono@4.9.4": {
-      "integrity": "de006e32f3bab18e5a5bed4c75c5e0aaa46958d3653e6646b534a874d690dccc"
+    "@hono/hono@4.12.2": {
+      "integrity": "a3344827d814799503bb3bba77285344aaa2798643d1cc56345f9e3537ece886"
     }
   },
   "npm": {
@@ -20,14 +20,14 @@
     "undici-types@7.10.0": {
       "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
     },
-    "zod@4.1.1": {
-      "integrity": "sha512-SgMZK/h8Tigt9nnKkfJMvB/mKjiJXaX26xegP4sa+0wHIFVFWVlsQGdhklDmuargBD3Hsi3rsQRIzwJIhTPJHA=="
+    "zod@4.3.6": {
+      "integrity": "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@hono/hono@^4.9.4",
-      "npm:zod@^4.1.1"
+      "jsr:@hono/hono@^4.12.2",
+      "npm:zod@^4.3.6"
     ]
   }
 }

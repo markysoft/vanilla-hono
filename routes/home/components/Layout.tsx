@@ -16,17 +16,15 @@ export const Layout: FC = () => {
         <title>Vanilla Hono</title>
         <link
           rel='stylesheet'
-          href='https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css'
+          href='https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css'
         />
         <script
           src='https://kit.fontawesome.com/c2b6fd3803.js'
           crossorigin='anonymous'
         >
         </script>
-        <script
-          type='module'
-          src='https://cdn.jsdelivr.net/gh/starfederation/datastar@main/bundles/datastar.js'
-        >
+
+        <script type='module' src='https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.7/bundles/datastar.js'>
         </script>
         <style>
           {`
@@ -71,7 +69,7 @@ export const Layout: FC = () => {
             <div class='columns'>
               <div class='column'>
                 <div class='content'>
-                 Put some stuff here
+                  Put some stuff here
                 </div>
               </div>
             </div>
@@ -80,39 +78,42 @@ export const Layout: FC = () => {
               <div class='content has-text-centered'>
                 <strong>
                   <a
-                    href='https://deno.com/deploy'
+                    href='https://sliplane.io'
                     target='_blank'
                   >
-                    Deno Deploy
+                    Sliplane
                   </a>
-                </strong>{' '}
-                and{' '}
+                  {' '}
+                </strong>
+                and
                 <strong>
+                  {' '}
                   <a href='https://hono.dev' target='_blank'>
                     Hono
                   </a>
                 </strong>{' '}
-                backend, <br />
+                backend,
+                <br />
                 <strong>
                   <a
                     href='https://data-star.dev/'
                     target='_blank'
                   >
                     DataStar
-                  </a>
-                </strong>{' '}
-                +{' '}
-                <strong>
+                  </a>{' '}
+                </strong>
+                &
+                <strong>{' '}
                   <a href='https://bulma.io/' target='_blank'>
                     Bulma
-                  </a>
-                </strong>{' '}
+                  </a>{' '}
+                </strong>
                 &{' '}
                 <strong>
                   <a href='https://fontawesome.com'>
                     Font Awesome
-                  </a>
-                </strong>{' '}
+                  </a>{' '}
+                </strong>
                 frontend
               </div>
             </footer>
