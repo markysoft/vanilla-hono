@@ -1,11 +1,15 @@
 {
   "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.19",
     "hono": "jsr:@hono/hono@^4.12.2",
     "zod": "npm:zod@^4.3.6",
     "@/": "./"
   },
   "tasks": {
-    "start": "deno run --allow-net --unstable-kv --watch --allow-env=\"SPIN_*\" main.tsx"
+    "start": "deno run --allow-net --unstable-kv --watch --allow-env=\"SPIN_*\" main.tsx",
+    "test": "deno test --allow-net --unstable-kv --allow-env=\"SPIN_*\"",
+    "test:watch": "deno test --allow-net --unstable-kv --allow-env=\"SPIN_*\" --watch"
+    
   },
   "compilerOptions": {
     "jsx": "precompile",

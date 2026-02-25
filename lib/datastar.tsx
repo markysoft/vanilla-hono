@@ -16,6 +16,7 @@ export function readSignals(c: Context): Record<string, unknown> {
 export async function datastarMiddleware(c: Context, next: () => Promise<void>) {
   const isDatastar = c.req.header('Datastar-Request') === 'true'
   c.set('signals', readSignals(c))
+  c.set('isDatastar', isDatastar)
   await next()
 }
 
@@ -23,5 +24,6 @@ export async function datastarMiddleware(c: Context, next: () => Promise<void>) 
 declare module 'hono' {
   interface ContextVariableMap {
     signals: Record<string, unknown>
+    isDatastar: boolean
   }
 }
